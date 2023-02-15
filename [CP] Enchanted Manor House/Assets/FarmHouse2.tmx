@@ -1,0 +1,3701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="42" height="42" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="1477">
+ <properties>
+  <property name="FloorIDs" value="Kitchen, Atrium, Bedroom, Nursery, SideRoom, HallwayOne, HallwayFour, Entry"/>
+  <property name="ViewportFollowPlayer" type="bool" value="true"/>
+  <property name="WallIDs" value="Kitchen, Atrium, Bedroom, Nursery, SideRoom, HallwayOne, HallwayFour"/>
+  <property name="Warp" value="12 21 Farm 64 15"/>
+ </properties>
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+  <image source="farmhouse_tiles.png" width="192" height="352"/>
+ </tileset>
+ <tileset firstgid="2441" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="560" columns="16">
+  <image source="walls_and_floors.png" width="256" height="560"/>
+ </tileset>
+ <tileset firstgid="3001" name="z_amyfarmhouse" tilewidth="16" tileheight="16" tilecount="456" columns="24">
+  <image source="z_amyfarmhouse.png" width="384" height="304"/>
+ </tileset>
+ <layer id="1" name="Back" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztl0sOgjAQhuvOFq6hF1DwfC7du3Hv1hvoDbwA4gUUD2EjNBK00+mLRzJ/8mWiaWHy2VJhbDrZcztegrFKcnLAJ0dux7nhIuzxSSHn3wS+XnmN7bzCs8+HnP8U+HqXlBbj27VPn2p9ks/flA5ehvBZOXgZan2qzDRs5zU5r1Gfdeiu55sdx6H6xI6H6N4fkwPHofrEjofo3t+URcLYMjFXlz1jU03JZA95Yq4ue8amkk/y2YfPLP2ybmh/NxafWQozRp//cF2/oX3mQI8bwCd0dn1+p8A+TX3q5kFnVwyfLutTvW+B10X67P7fCbk+1fuWz/NVF4zPVQNmv/s+X3WJfT7F9jnUeUU+yWfMxPIZOgX5pFAoFMoE8gYw3asi
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back" visible="0">
+  <object id="1" name="TileData" x="16" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="812" name="TileData" x="16" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="731" name="TileData" x="240" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="1326" name="TileData" x="240" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1329" name="TileData" x="224" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="749" name="TileData" x="208" y="32" width="16" height="16">
+   <properties>
+    <property name="WallID" value="HallwayOne"/>
+   </properties>
+  </object>
+  <object id="577" name="TileData" x="32" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="811" name="TileData" x="32" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="730" name="TileData" x="256" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="1325" name="TileData" x="256" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="748" name="TileData" x="224" y="32" width="16" height="16">
+   <properties>
+    <property name="WallID" value="HallwayOne"/>
+   </properties>
+  </object>
+  <object id="584" name="TileData" x="48" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="810" name="TileData" x="48" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="729" name="TileData" x="272" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="1324" name="TileData" x="272" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="591" name="TileData" x="64" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="809" name="TileData" x="64" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="728" name="TileData" x="288" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="1323" name="TileData" x="288" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="598" name="TileData" x="80" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="808" name="TileData" x="80" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="727" name="TileData" x="304" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="1322" name="TileData" x="304" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="605" name="TileData" x="96" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="807" name="TileData" x="96" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="726" name="TileData" x="320" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="1321" name="TileData" x="320" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="612" name="TileData" x="112" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="806" name="TileData" x="112" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="725" name="TileData" x="336" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="1320" name="TileData" x="336" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="619" name="TileData" x="128" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="805" name="TileData" x="128" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="724" name="TileData" x="352" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="1319" name="TileData" x="352" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="941" name="TileData" x="560" y="320" width="16" height="16">
+   <properties>
+    <property name="WallID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="987" name="TileData" x="528" y="352" width="16" height="16">
+   <properties>
+    <property name="WallID" value="HallwayFour"/>
+   </properties>
+  </object>
+  <object id="626" name="TileData" x="144" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="804" name="TileData" x="144" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="723" name="TileData" x="368" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="1318" name="TileData" x="368" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="940" name="TileData" x="576" y="320" width="16" height="16">
+   <properties>
+    <property name="WallID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="986" name="TileData" x="544" y="352" width="16" height="16">
+   <properties>
+    <property name="WallID" value="HallwayFour"/>
+   </properties>
+  </object>
+  <object id="633" name="TileData" x="160" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="722" name="TileData" x="384" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="1317" name="TileData" x="384" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="939" name="TileData" x="592" y="320" width="16" height="16">
+   <properties>
+    <property name="WallID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="640" name="TileData" x="176" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="721" name="TileData" x="400" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="1316" name="TileData" x="400" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="938" name="TileData" x="608" y="320" width="16" height="16">
+   <properties>
+    <property name="WallID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="647" name="TileData" x="192" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="720" name="TileData" x="416" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="1315" name="TileData" x="416" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1328" name="TileData" x="448" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="937" name="TileData" x="624" y="320" width="16" height="16">
+   <properties>
+    <property name="WallID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="738" name="TileData" x="432" y="16" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="1314" name="TileData" x="432" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1327" name="TileData" x="464" y="160" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="936" name="TileData" x="640" y="320" width="16" height="16">
+   <properties>
+    <property name="WallID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="26" name="TileData" x="16" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="803" name="TileData" x="16" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="719" name="TileData" x="240" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="747" name="TileData" x="208" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayOne"/>
+   </properties>
+  </object>
+  <object id="576" name="TileData" x="32" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="802" name="TileData" x="32" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="718" name="TileData" x="256" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="746" name="TileData" x="224" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayOne"/>
+   </properties>
+  </object>
+  <object id="583" name="TileData" x="48" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="801" name="TileData" x="48" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="717" name="TileData" x="272" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="590" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="800" name="TileData" x="64" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="716" name="TileData" x="288" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="597" name="TileData" x="80" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="799" name="TileData" x="80" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="898" name="TileData" x="160" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="715" name="TileData" x="304" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="604" name="TileData" x="96" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="798" name="TileData" x="96" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="897" name="TileData" x="176" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="714" name="TileData" x="320" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="611" name="TileData" x="272" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="713" name="TileData" x="336" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="618" name="TileData" x="128" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="797" name="TileData" x="128" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="896" name="TileData" x="208" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="739" name="TileData" x="112" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="796" name="TileData" x="112" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="895" name="TileData" x="192" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="712" name="TileData" x="352" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="935" name="TileData" x="560" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="985" name="TileData" x="528" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayFour"/>
+   </properties>
+  </object>
+  <object id="625" name="TileData" x="144" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="795" name="TileData" x="144" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="894" name="TileData" x="224" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="711" name="TileData" x="368" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="934" name="TileData" x="576" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="984" name="TileData" x="544" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayFour"/>
+   </properties>
+  </object>
+  <object id="632" name="TileData" x="160" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="710" name="TileData" x="384" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="933" name="TileData" x="592" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="639" name="TileData" x="176" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="709" name="TileData" x="400" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="932" name="TileData" x="608" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="646" name="TileData" x="192" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="708" name="TileData" x="416" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="931" name="TileData" x="624" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="737" name="TileData" x="432" y="48" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="930" name="TileData" x="640" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="53" name="TileData" x="16" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="794" name="TileData" x="16" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="707" name="TileData" x="240" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="745" name="TileData" x="208" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayOne"/>
+   </properties>
+  </object>
+  <object id="575" name="TileData" x="32" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="793" name="TileData" x="32" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="706" name="TileData" x="256" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="744" name="TileData" x="224" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayOne"/>
+   </properties>
+  </object>
+  <object id="582" name="TileData" x="48" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="792" name="TileData" x="48" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="705" name="TileData" x="272" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="589" name="TileData" x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="791" name="TileData" x="64" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="704" name="TileData" x="288" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="596" name="TileData" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="790" name="TileData" x="80" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="893" name="TileData" x="160" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="703" name="TileData" x="304" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="603" name="TileData" x="96" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="789" name="TileData" x="96" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="892" name="TileData" x="176" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="702" name="TileData" x="320" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="610" name="TileData" x="112" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="788" name="TileData" x="112" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="891" name="TileData" x="192" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="701" name="TileData" x="336" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="617" name="TileData" x="128" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="787" name="TileData" x="128" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="890" name="TileData" x="208" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="700" name="TileData" x="352" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="929" name="TileData" x="560" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="983" name="TileData" x="528" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayFour"/>
+   </properties>
+  </object>
+  <object id="971" name="TileData" x="560" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1313" name="TileData" x="432" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1312" name="TileData" x="336" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1097" name="TileData" x="240" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1203" name="TileData" x="240" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1311" name="TileData" x="240" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="624" name="TileData" x="144" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="786" name="TileData" x="144" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="889" name="TileData" x="224" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="699" name="TileData" x="368" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="928" name="TileData" x="576" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="982" name="TileData" x="544" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayFour"/>
+   </properties>
+  </object>
+  <object id="970" name="TileData" x="576" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1310" name="TileData" x="448" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1309" name="TileData" x="352" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1096" name="TileData" x="256" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1200" name="TileData" x="256" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1308" name="TileData" x="256" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="631" name="TileData" x="160" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="698" name="TileData" x="384" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="927" name="TileData" x="592" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="969" name="TileData" x="592" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1023" name="TileData" x="464" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1429" name="TileData" x="448" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1199" name="TileData" x="464" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1428" name="TileData" x="448" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1307" name="TileData" x="464" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1306" name="TileData" x="368" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1095" name="TileData" x="272" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1197" name="TileData" x="272" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1305" name="TileData" x="272" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="638" name="TileData" x="176" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="697" name="TileData" x="400" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="926" name="TileData" x="608" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="968" name="TileData" x="608" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1022" name="TileData" x="480" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1196" name="TileData" x="480" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1303" name="TileData" x="384" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1094" name="TileData" x="288" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1421" name="TileData" x="304" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1194" name="TileData" x="288" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1420" name="TileData" x="304" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1302" name="TileData" x="288" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="645" name="TileData" x="192" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="696" name="TileData" x="416" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="925" name="TileData" x="624" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="967" name="TileData" x="624" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1021" name="TileData" x="496" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1193" name="TileData" x="496" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1300" name="TileData" x="400" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1299" name="TileData" x="304" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="736" name="TileData" x="432" y="64" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="924" name="TileData" x="640" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="966" name="TileData" x="640" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1020" name="TileData" x="512" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1190" name="TileData" x="512" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1297" name="TileData" x="416" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1296" name="TileData" x="320" y="192" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="78" name="TileData" x="16" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="785" name="TileData" x="16" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="848" name="TileData" x="16" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="695" name="TileData" x="240" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="743" name="TileData" x="208" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayOne"/>
+   </properties>
+  </object>
+  <object id="574" name="TileData" x="32" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="784" name="TileData" x="32" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="847" name="TileData" x="32" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="694" name="TileData" x="256" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="742" name="TileData" x="224" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayOne"/>
+   </properties>
+  </object>
+  <object id="581" name="TileData" x="48" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="783" name="TileData" x="48" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="846" name="TileData" x="48" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="693" name="TileData" x="272" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="588" name="TileData" x="64" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="782" name="TileData" x="64" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="845" name="TileData" x="64" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="692" name="TileData" x="288" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="595" name="TileData" x="80" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="781" name="TileData" x="80" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="888" name="TileData" x="160" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="844" name="TileData" x="80" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="887" name="TileData" x="160" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="691" name="TileData" x="304" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="602" name="TileData" x="96" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="780" name="TileData" x="96" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="886" name="TileData" x="176" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="843" name="TileData" x="96" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="885" name="TileData" x="176" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="690" name="TileData" x="320" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="609" name="TileData" x="112" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="779" name="TileData" x="112" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="884" name="TileData" x="192" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="842" name="TileData" x="112" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="883" name="TileData" x="192" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="689" name="TileData" x="336" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="616" name="TileData" x="128" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="778" name="TileData" x="128" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="882" name="TileData" x="208" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="841" name="TileData" x="128" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="881" name="TileData" x="208" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="688" name="TileData" x="352" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="923" name="TileData" x="560" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="981" name="TileData" x="528" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayFour"/>
+   </properties>
+  </object>
+  <object id="965" name="TileData" x="560" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1295" name="TileData" x="432" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1294" name="TileData" x="336" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1091" name="TileData" x="240" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1185" name="TileData" x="240" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1293" name="TileData" x="240" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="623" name="TileData" x="144" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="777" name="TileData" x="144" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="880" name="TileData" x="224" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="840" name="TileData" x="144" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="879" name="TileData" x="224" y="288" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="687" name="TileData" x="368" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="922" name="TileData" x="576" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="980" name="TileData" x="544" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayFour"/>
+   </properties>
+  </object>
+  <object id="964" name="TileData" x="576" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1292" name="TileData" x="448" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1291" name="TileData" x="352" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1090" name="TileData" x="256" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1182" name="TileData" x="256" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1290" name="TileData" x="256" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="630" name="TileData" x="160" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="686" name="TileData" x="384" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="921" name="TileData" x="592" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="963" name="TileData" x="592" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1017" name="TileData" x="464" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1181" name="TileData" x="464" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1427" name="TileData" x="448" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1289" name="TileData" x="464" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1288" name="TileData" x="368" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1089" name="TileData" x="272" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1179" name="TileData" x="272" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1287" name="TileData" x="272" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="637" name="TileData" x="176" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="685" name="TileData" x="400" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="920" name="TileData" x="608" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="962" name="TileData" x="608" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1016" name="TileData" x="480" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1178" name="TileData" x="480" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1286" name="TileData" x="480" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1285" name="TileData" x="384" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1088" name="TileData" x="288" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1176" name="TileData" x="288" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1419" name="TileData" x="304" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1284" name="TileData" x="288" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="644" name="TileData" x="192" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="684" name="TileData" x="416" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="919" name="TileData" x="624" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="961" name="TileData" x="624" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1015" name="TileData" x="496" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1175" name="TileData" x="496" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1283" name="TileData" x="496" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1282" name="TileData" x="400" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1281" name="TileData" x="304" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="735" name="TileData" x="432" y="80" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="918" name="TileData" x="640" y="384" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="960" name="TileData" x="640" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1014" name="TileData" x="512" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1172" name="TileData" x="512" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1280" name="TileData" x="512" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1279" name="TileData" x="416" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1278" name="TileData" x="320" y="208" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="105" name="TileData" x="16" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="776" name="TileData" x="16" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="839" name="TileData" x="16" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="683" name="TileData" x="240" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="741" name="TileData" x="208" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayOne"/>
+   </properties>
+  </object>
+  <object id="573" name="TileData" x="32" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="775" name="TileData" x="32" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="838" name="TileData" x="32" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="682" name="TileData" x="256" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="740" name="TileData" x="224" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayOne"/>
+   </properties>
+  </object>
+  <object id="580" name="TileData" x="48" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="774" name="TileData" x="48" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="837" name="TileData" x="48" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="681" name="TileData" x="272" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="587" name="TileData" x="64" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="773" name="TileData" x="64" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="836" name="TileData" x="64" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="680" name="TileData" x="288" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="594" name="TileData" x="80" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="772" name="TileData" x="80" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="878" name="TileData" x="160" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="835" name="TileData" x="80" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="877" name="TileData" x="160" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="679" name="TileData" x="304" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="601" name="TileData" x="96" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="771" name="TileData" x="96" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="876" name="TileData" x="176" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="834" name="TileData" x="96" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="875" name="TileData" x="176" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="678" name="TileData" x="320" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="608" name="TileData" x="112" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="770" name="TileData" x="112" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="874" name="TileData" x="192" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="833" name="TileData" x="112" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="873" name="TileData" x="192" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="899" name="TileData" x="192" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="1472" name="TileData" x="192" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="1473" name="TileData" x="176" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="1474" name="TileData" x="160" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="1475" name="TileData" x="208" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="1476" name="TileData" x="224" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="677" name="TileData" x="336" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="615" name="TileData" x="128" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="769" name="TileData" x="128" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="872" name="TileData" x="208" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="832" name="TileData" x="128" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="871" name="TileData" x="208" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="676" name="TileData" x="352" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="917" name="TileData" x="560" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="979" name="TileData" x="528" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayFour"/>
+   </properties>
+  </object>
+  <object id="959" name="TileData" x="560" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1013" name="TileData" x="432" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1413" name="TileData" x="432" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1277" name="TileData" x="432" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1049" name="TileData" x="336" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1412" name="TileData" x="336" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1276" name="TileData" x="336" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1085" name="TileData" x="240" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1167" name="TileData" x="240" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1275" name="TileData" x="240" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="622" name="TileData" x="144" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="768" name="TileData" x="144" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="870" name="TileData" x="224" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="831" name="TileData" x="144" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="869" name="TileData" x="224" y="304" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="675" name="TileData" x="368" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="916" name="TileData" x="576" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="978" name="TileData" x="544" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="HallwayFour"/>
+   </properties>
+  </object>
+  <object id="958" name="TileData" x="576" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1012" name="TileData" x="448" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1411" name="TileData" x="448" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1274" name="TileData" x="448" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1048" name="TileData" x="352" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1410" name="TileData" x="352" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1273" name="TileData" x="352" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1084" name="TileData" x="256" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1164" name="TileData" x="256" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1272" name="TileData" x="256" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="629" name="TileData" x="160" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="674" name="TileData" x="384" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="915" name="TileData" x="592" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="957" name="TileData" x="592" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1011" name="TileData" x="464" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1163" name="TileData" x="464" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1426" name="TileData" x="448" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1271" name="TileData" x="464" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1047" name="TileData" x="368" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1409" name="TileData" x="368" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1270" name="TileData" x="368" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1083" name="TileData" x="272" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1161" name="TileData" x="272" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1269" name="TileData" x="272" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="636" name="TileData" x="176" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="673" name="TileData" x="400" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="914" name="TileData" x="608" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="956" name="TileData" x="608" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1010" name="TileData" x="480" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1160" name="TileData" x="480" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1268" name="TileData" x="480" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1046" name="TileData" x="384" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1408" name="TileData" x="384" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1267" name="TileData" x="384" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1082" name="TileData" x="288" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1158" name="TileData" x="288" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1418" name="TileData" x="304" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1266" name="TileData" x="288" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="643" name="TileData" x="192" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="672" name="TileData" x="416" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="913" name="TileData" x="624" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="955" name="TileData" x="624" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1009" name="TileData" x="496" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1157" name="TileData" x="496" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1265" name="TileData" x="496" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1045" name="TileData" x="400" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1407" name="TileData" x="400" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1264" name="TileData" x="400" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1081" name="TileData" x="304" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1406" name="TileData" x="304" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1263" name="TileData" x="304" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="734" name="TileData" x="432" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="912" name="TileData" x="640" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="954" name="TileData" x="640" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1008" name="TileData" x="512" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1154" name="TileData" x="512" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1262" name="TileData" x="512" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1044" name="TileData" x="416" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1405" name="TileData" x="416" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1261" name="TileData" x="416" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1080" name="TileData" x="320" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1404" name="TileData" x="320" y="400" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1260" name="TileData" x="320" y="224" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="132" name="TileData" x="16" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="767" name="TileData" x="16" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="830" name="TileData" x="16" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="671" name="TileData" x="240" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="572" name="TileData" x="32" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="766" name="TileData" x="32" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="829" name="TileData" x="32" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="670" name="TileData" x="256" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="579" name="TileData" x="48" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="765" name="TileData" x="48" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="828" name="TileData" x="48" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="669" name="TileData" x="272" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="586" name="TileData" x="64" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="764" name="TileData" x="64" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="827" name="TileData" x="64" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="668" name="TileData" x="288" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="593" name="TileData" x="80" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="763" name="TileData" x="80" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="868" name="TileData" x="160" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="826" name="TileData" x="80" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="667" name="TileData" x="304" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="600" name="TileData" x="96" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="762" name="TileData" x="96" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="867" name="TileData" x="176" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="825" name="TileData" x="96" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="666" name="TileData" x="320" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="607" name="TileData" x="112" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="761" name="TileData" x="112" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="866" name="TileData" x="192" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="824" name="TileData" x="112" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="665" name="TileData" x="336" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="614" name="TileData" x="128" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="760" name="TileData" x="128" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="865" name="TileData" x="208" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="823" name="TileData" x="128" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="664" name="TileData" x="352" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="911" name="TileData" x="560" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="953" name="TileData" x="560" y="496" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1007" name="TileData" x="432" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1259" name="TileData" x="432" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1403" name="TileData" x="432" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1043" name="TileData" x="336" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1258" name="TileData" x="336" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1402" name="TileData" x="336" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1079" name="TileData" x="240" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1149" name="TileData" x="240" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1257" name="TileData" x="240" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="621" name="TileData" x="144" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="759" name="TileData" x="144" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="864" name="TileData" x="224" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="822" name="TileData" x="144" y="320" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="663" name="TileData" x="368" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="910" name="TileData" x="576" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="952" name="TileData" x="576" y="496" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1006" name="TileData" x="448" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1256" name="TileData" x="448" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1401" name="TileData" x="448" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1042" name="TileData" x="352" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1255" name="TileData" x="352" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1400" name="TileData" x="352" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1078" name="TileData" x="256" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1146" name="TileData" x="256" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1254" name="TileData" x="256" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="628" name="TileData" x="160" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="662" name="TileData" x="384" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="909" name="TileData" x="592" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="951" name="TileData" x="592" y="496" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1005" name="TileData" x="464" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1145" name="TileData" x="464" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1425" name="TileData" x="448" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1253" name="TileData" x="464" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1041" name="TileData" x="368" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1252" name="TileData" x="368" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1399" name="TileData" x="368" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1077" name="TileData" x="272" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1143" name="TileData" x="272" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1251" name="TileData" x="272" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="635" name="TileData" x="176" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="661" name="TileData" x="400" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="908" name="TileData" x="608" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="950" name="TileData" x="608" y="496" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1004" name="TileData" x="480" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1142" name="TileData" x="480" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1250" name="TileData" x="480" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1040" name="TileData" x="384" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1249" name="TileData" x="384" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1398" name="TileData" x="384" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1076" name="TileData" x="288" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1140" name="TileData" x="288" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1417" name="TileData" x="304" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1248" name="TileData" x="288" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="642" name="TileData" x="192" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="660" name="TileData" x="416" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="907" name="TileData" x="624" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="949" name="TileData" x="624" y="496" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1003" name="TileData" x="496" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1139" name="TileData" x="496" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1247" name="TileData" x="496" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1039" name="TileData" x="400" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1246" name="TileData" x="400" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1397" name="TileData" x="400" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1075" name="TileData" x="304" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1245" name="TileData" x="304" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1396" name="TileData" x="304" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="733" name="TileData" x="432" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="906" name="TileData" x="640" y="416" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="948" name="TileData" x="640" y="496" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1002" name="TileData" x="512" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1136" name="TileData" x="512" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1244" name="TileData" x="512" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1038" name="TileData" x="416" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1243" name="TileData" x="416" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1395" name="TileData" x="416" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1074" name="TileData" x="320" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1360" name="TileData" x="352" y="304" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1376" name="TileData" x="384" y="304" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1392" name="TileData" x="416" y="304" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1359" name="TileData" x="352" y="336" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1375" name="TileData" x="384" y="336" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1391" name="TileData" x="416" y="336" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1358" name="TileData" x="352" y="368" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1374" name="TileData" x="384" y="368" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1390" name="TileData" x="416" y="368" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1336" name="TileData" x="336" y="304" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1356" name="TileData" x="368" y="304" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1372" name="TileData" x="400" y="304" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1340" name="TileData" x="336" y="336" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1355" name="TileData" x="368" y="336" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1371" name="TileData" x="400" y="336" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1344" name="TileData" x="336" y="368" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1354" name="TileData" x="368" y="368" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1370" name="TileData" x="400" y="368" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1332" name="TileData" x="336" y="288" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1353" name="TileData" x="368" y="288" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1369" name="TileData" x="400" y="288" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1335" name="TileData" x="336" y="320" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1352" name="TileData" x="368" y="320" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1368" name="TileData" x="400" y="320" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1339" name="TileData" x="336" y="352" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1351" name="TileData" x="368" y="352" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1367" name="TileData" x="400" y="352" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1349" name="TileData" x="352" y="288" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1365" name="TileData" x="384" y="288" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1381" name="TileData" x="416" y="288" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1348" name="TileData" x="352" y="320" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1364" name="TileData" x="384" y="320" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1380" name="TileData" x="416" y="320" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1347" name="TileData" x="352" y="352" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1363" name="TileData" x="384" y="352" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1379" name="TileData" x="416" y="352" width="16" height="16">
+   <properties>
+    <property name="Diggable" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="1330" name="TileData" x="320" y="240" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1394" name="TileData" x="320" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="159" name="TileData" x="16" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="758" name="TileData" x="16" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="821" name="TileData" x="16" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="857" name="TileData" x="16" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="659" name="TileData" x="240" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="571" name="TileData" x="32" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="757" name="TileData" x="32" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="820" name="TileData" x="32" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="856" name="TileData" x="32" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="658" name="TileData" x="256" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="578" name="TileData" x="48" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="756" name="TileData" x="48" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="819" name="TileData" x="48" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="855" name="TileData" x="48" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="585" name="TileData" x="64" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="755" name="TileData" x="64" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="818" name="TileData" x="64" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="854" name="TileData" x="64" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="656" name="TileData" x="288" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="592" name="TileData" x="80" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="754" name="TileData" x="80" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="863" name="TileData" x="160" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="817" name="TileData" x="80" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="853" name="TileData" x="80" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="655" name="TileData" x="304" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="599" name="TileData" x="96" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="753" name="TileData" x="96" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="862" name="TileData" x="176" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="816" name="TileData" x="96" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="852" name="TileData" x="96" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="654" name="TileData" x="320" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="606" name="TileData" x="112" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="752" name="TileData" x="112" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="861" name="TileData" x="192" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="815" name="TileData" x="112" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="851" name="TileData" x="112" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="653" name="TileData" x="336" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="613" name="TileData" x="128" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="751" name="TileData" x="128" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="860" name="TileData" x="208" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="814" name="TileData" x="128" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="850" name="TileData" x="128" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="652" name="TileData" x="352" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="905" name="TileData" x="560" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="1001" name="TileData" x="432" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1037" name="TileData" x="336" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1073" name="TileData" x="240" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1131" name="TileData" x="240" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1239" name="TileData" x="240" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1000" name="TileData" x="432" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1036" name="TileData" x="336" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1072" name="TileData" x="240" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1128" name="TileData" x="240" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1236" name="TileData" x="240" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="620" name="TileData" x="144" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="750" name="TileData" x="144" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="859" name="TileData" x="224" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Entry"/>
+   </properties>
+  </object>
+  <object id="813" name="TileData" x="144" y="336" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="849" name="TileData" x="144" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Kitchen"/>
+   </properties>
+  </object>
+  <object id="651" name="TileData" x="368" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="904" name="TileData" x="576" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="999" name="TileData" x="448" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1035" name="TileData" x="352" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1071" name="TileData" x="256" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1125" name="TileData" x="256" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1233" name="TileData" x="256" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="998" name="TileData" x="448" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1034" name="TileData" x="352" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1070" name="TileData" x="256" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1122" name="TileData" x="256" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1230" name="TileData" x="256" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="627" name="TileData" x="160" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="650" name="TileData" x="384" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="903" name="TileData" x="592" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="997" name="TileData" x="464" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1121" name="TileData" x="464" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1424" name="TileData" x="448" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1229" name="TileData" x="464" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1033" name="TileData" x="368" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1069" name="TileData" x="272" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1119" name="TileData" x="272" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1227" name="TileData" x="272" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="996" name="TileData" x="464" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1118" name="TileData" x="464" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1423" name="TileData" x="448" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1226" name="TileData" x="464" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1422" name="TileData" x="448" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1032" name="TileData" x="368" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1068" name="TileData" x="272" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1116" name="TileData" x="272" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1224" name="TileData" x="272" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="634" name="TileData" x="176" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="649" name="TileData" x="400" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="902" name="TileData" x="608" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="995" name="TileData" x="480" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1115" name="TileData" x="480" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1223" name="TileData" x="480" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1031" name="TileData" x="384" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1067" name="TileData" x="288" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1113" name="TileData" x="288" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1416" name="TileData" x="304" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1221" name="TileData" x="288" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="994" name="TileData" x="480" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1112" name="TileData" x="480" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1220" name="TileData" x="480" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1030" name="TileData" x="384" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1066" name="TileData" x="288" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1110" name="TileData" x="288" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1415" name="TileData" x="304" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1218" name="TileData" x="288" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1414" name="TileData" x="304" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="641" name="TileData" x="192" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Bedroom"/>
+   </properties>
+  </object>
+  <object id="648" name="TileData" x="416" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="901" name="TileData" x="624" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="993" name="TileData" x="496" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1109" name="TileData" x="496" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1217" name="TileData" x="496" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1029" name="TileData" x="400" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1065" name="TileData" x="304" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="992" name="TileData" x="496" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1106" name="TileData" x="496" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1214" name="TileData" x="496" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1028" name="TileData" x="400" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1064" name="TileData" x="304" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="732" name="TileData" x="432" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Nursery"/>
+   </properties>
+  </object>
+  <object id="900" name="TileData" x="640" y="432" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SideRoom"/>
+   </properties>
+  </object>
+  <object id="991" name="TileData" x="512" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1103" name="TileData" x="512" y="352" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1211" name="TileData" x="512" y="256" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1027" name="TileData" x="416" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1063" name="TileData" x="320" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="990" name="TileData" x="512" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1100" name="TileData" x="512" y="368" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1208" name="TileData" x="512" y="272" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1026" name="TileData" x="416" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="1062" name="TileData" x="320" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztl7tOwzAUhh0BQ0KycJsQtwlxm0DQraEtMIAoW9kYYAAkKBuvwwY7T9DOvBO/JSwsxHGOHYc2yL/0qVbtk3xqleM4EUJMWJKCxKFO4pocTKb89VNYO8Dn0LJO1bomd6jZi4XYj93v6RLp+R7bkYMW+EjsKeNpmzM4no/g96xDgqffRA41Hce6MpGP4LQo7s9DrWbAWO+zx8tw+rzszwfa8y3Htj3+5/X0dBg10rOpOSxiPANmwRyYBwugra1pe+5JXM9T3Pfti3WwBJbBClgFa6CruXW19a64ePa0ul2MN8Am2ALbYKfinu7iOYpwPW9q4lmX39OnZ54JcQha2fd3Rxgfg5Ps9xqu57VHz0vCReaqpGffo+eTwfPZ4Gk6x6RiPN5DpCe1L8q9S81zr6XePSKLOk7UeYtzb04iDcqzYfjfm8ScOm9Re5fy5KKH8rwwePaIOXXeosJ5zqhQnrdwuQP3mtMDxo+gT3gWnbeq8KwiwdNvxsWzqD+W8fR5jivqx2U8facuni+Gudc/syiOzR4TEhISEvL/8gls305F
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings" visible="0">
+  <object id="563" name="TileData" x="240" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Crib"/>
+   </properties>
+  </object>
+  <object id="564" name="TileData" x="256" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Crib"/>
+   </properties>
+  </object>
+  <object id="565" name="TileData" x="272" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Crib"/>
+   </properties>
+  </object>
+  <object id="566" name="TileData" x="64" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="567" name="TileData" x="80" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="568" name="TileData" x="96" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="569" name="TileData" x="112" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="570" name="TileData" x="128" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztlzkOwjAQRYeCIiRp2KqwhCrsnAUC1JyFI3AEEPeDE/ApkFJZtuPYiZknvS4Tjyz5e0zUHG5tNXXrirU2SCKiUWR3TYbxjQe8W17zAp8Sfvt6hUTvUK2uqC0CZFHHYR7p5LNOxpvM+yQg6sIe7MMBHAbl/2uaDD2N4QROYQpnNeyTYXSYx0QLuIQruIYbuIW72HV3jK8UZ4+q5hBTd9dv9rgKvkkFZyUrcY5k5x5Rb2WReW+1FJRlj307wBwe4QmeOZOYhuLiveUrVWfevyK6b+q036buGIZhGKaZfADHdUya
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front" visible="0"/>
+</map>

@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" width="42" height="42" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="422">
+ <properties>
+  <property name="FloorIds" value="Porch"/>
+  <property name="LocationContext" value="Default"/>
+  <property name="Outdoors" type="bool" value="true"/>
+  <property name="TreatAsOutdoors" type="bool" value="true"/>
+  <property name="ViewportFollowPlayer" type="bool" value="true"/>
+  <property name="WallIDs" value="Porch"/>
+  <property name="Warp" value="12 21 Farm 64 15"/>
+ </properties>
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+  <image source="farmhouse_tiles.png" width="192" height="352"/>
+ </tileset>
+ <tileset firstgid="2441" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="560" columns="16">
+  <image source="walls_and_floors.png" width="256" height="560"/>
+ </tileset>
+ <tileset firstgid="3001" name="z_amyfarmhouse" tilewidth="16" tileheight="16" tilecount="456" columns="24">
+  <image source="z_amyfarmhouse.png" width="384" height="304"/>
+ </tileset>
+ <layer id="1" name="Back" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJztllEKgzAQRPUzOVDv2CP030vVG9RT2EVDo27Ubgzm4z0YBpZFJyOKTQMAAAAAAAAAADGtotrQMop6f2eqJSHT55tp8Fuvgbi3t9dd0PJbPCfj0fWFdfa9c+2dt0SP4k837T/cT8M8T0nOF++HeU7Oo+f0UnJ2bpqn1LnlfpiX7DN4fF/rvuU7d7bPKz0np+V9sDp90ue/OUU197nOWrrP3P+v1H9SKZ1hBDC5FRc=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back" visible="0">
+  <object id="1" name="TileData" x="208" y="496" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="115" name="TileData" x="240" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="116" name="TileData" x="256" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="117" name="TileData" x="272" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="139" name="TileData" x="496" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="154" name="TileData" x="480" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="162" name="TileData" x="464" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="170" name="TileData" x="448" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="178" name="TileData" x="432" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="186" name="TileData" x="416" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="194" name="TileData" x="400" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="146" name="TileData" x="496" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="153" name="TileData" x="480" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="161" name="TileData" x="464" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="169" name="TileData" x="448" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="177" name="TileData" x="432" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="185" name="TileData" x="416" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="193" name="TileData" x="400" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="140" name="TileData" x="496" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="152" name="TileData" x="480" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="160" name="TileData" x="464" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="168" name="TileData" x="448" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="176" name="TileData" x="432" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="184" name="TileData" x="416" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="192" name="TileData" x="400" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="141" name="TileData" x="496" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="151" name="TileData" x="480" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="159" name="TileData" x="464" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="167" name="TileData" x="448" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="175" name="TileData" x="432" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="183" name="TileData" x="416" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="191" name="TileData" x="400" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="142" name="TileData" x="496" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="150" name="TileData" x="480" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="158" name="TileData" x="464" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="166" name="TileData" x="448" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="174" name="TileData" x="432" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="182" name="TileData" x="416" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="190" name="TileData" x="400" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="143" name="TileData" x="496" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="149" name="TileData" x="480" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="157" name="TileData" x="464" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="165" name="TileData" x="448" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="173" name="TileData" x="432" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="181" name="TileData" x="416" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="189" name="TileData" x="400" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="144" name="TileData" x="496" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="148" name="TileData" x="480" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="156" name="TileData" x="464" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="164" name="TileData" x="448" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="172" name="TileData" x="432" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="180" name="TileData" x="416" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="188" name="TileData" x="400" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="145" name="TileData" x="496" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="147" name="TileData" x="480" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="155" name="TileData" x="464" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="163" name="TileData" x="448" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="171" name="TileData" x="432" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="179" name="TileData" x="416" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="187" name="TileData" x="400" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="121" name="TileData" x="272" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="126" name="TileData" x="320" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="129" name="TileData" x="368" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="132" name="TileData" x="416" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="135" name="TileData" x="464" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="138" name="TileData" x="512" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="122" name="TileData" x="256" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="125" name="TileData" x="304" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="128" name="TileData" x="352" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="131" name="TileData" x="400" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="134" name="TileData" x="448" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="137" name="TileData" x="496" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="123" name="TileData" x="240" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="124" name="TileData" x="288" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="127" name="TileData" x="336" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="130" name="TileData" x="384" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="133" name="TileData" x="432" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="136" name="TileData" x="480" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="118" name="TileData" x="432" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="119" name="TileData" x="448" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="120" name="TileData" x="464" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Atrium"/>
+   </properties>
+  </object>
+  <object id="107" name="TileData" x="304" y="496" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="108" name="TileData" x="320" y="496" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="109" name="TileData" x="336" y="496" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="110" name="TileData" x="352" y="496" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="111" name="TileData" x="368" y="496" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="112" name="TileData" x="384" y="496" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="113" name="TileData" x="400" y="496" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="114" name="TileData" x="496" y="496" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="421" name="TileData" x="512" y="496" width="16" height="16">
+   <properties>
+    <property name="WallID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="195" name="TileData" x="384" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="196" name="TileData" x="368" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="197" name="TileData" x="352" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="198" name="TileData" x="336" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="199" name="TileData" x="320" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="200" name="TileData" x="304" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="201" name="TileData" x="288" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="202" name="TileData" x="384" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="203" name="TileData" x="368" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="204" name="TileData" x="352" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="205" name="TileData" x="336" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="206" name="TileData" x="320" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="207" name="TileData" x="304" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="208" name="TileData" x="288" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="209" name="TileData" x="384" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="210" name="TileData" x="368" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="211" name="TileData" x="352" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="212" name="TileData" x="336" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="213" name="TileData" x="320" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="214" name="TileData" x="304" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="215" name="TileData" x="288" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="216" name="TileData" x="384" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="217" name="TileData" x="368" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="218" name="TileData" x="352" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="219" name="TileData" x="336" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="220" name="TileData" x="320" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="221" name="TileData" x="304" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="222" name="TileData" x="288" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="223" name="TileData" x="384" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="224" name="TileData" x="368" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="225" name="TileData" x="352" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="226" name="TileData" x="336" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="227" name="TileData" x="320" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="228" name="TileData" x="304" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="229" name="TileData" x="288" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="230" name="TileData" x="384" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="231" name="TileData" x="368" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="232" name="TileData" x="352" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="233" name="TileData" x="336" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="234" name="TileData" x="320" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="235" name="TileData" x="304" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="236" name="TileData" x="288" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="237" name="TileData" x="384" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="238" name="TileData" x="368" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="239" name="TileData" x="352" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="240" name="TileData" x="336" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="241" name="TileData" x="320" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="242" name="TileData" x="304" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="243" name="TileData" x="288" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="244" name="TileData" x="384" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="245" name="TileData" x="368" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="246" name="TileData" x="352" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="247" name="TileData" x="336" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="248" name="TileData" x="320" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="249" name="TileData" x="304" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="250" name="TileData" x="288" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="251" name="TileData" x="272" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="252" name="TileData" x="256" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="253" name="TileData" x="240" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="254" name="TileData" x="224" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="255" name="TileData" x="208" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="256" name="TileData" x="192" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="257" name="TileData" x="176" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="258" name="TileData" x="272" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="259" name="TileData" x="256" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="260" name="TileData" x="240" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="261" name="TileData" x="224" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="262" name="TileData" x="208" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="263" name="TileData" x="192" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="264" name="TileData" x="176" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="265" name="TileData" x="272" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="266" name="TileData" x="256" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="267" name="TileData" x="240" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="268" name="TileData" x="224" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="269" name="TileData" x="208" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="270" name="TileData" x="192" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="271" name="TileData" x="176" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="272" name="TileData" x="272" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="273" name="TileData" x="256" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="274" name="TileData" x="240" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="275" name="TileData" x="224" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="276" name="TileData" x="208" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="277" name="TileData" x="192" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="278" name="TileData" x="176" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="279" name="TileData" x="272" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="280" name="TileData" x="256" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="281" name="TileData" x="240" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="282" name="TileData" x="224" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="283" name="TileData" x="208" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="284" name="TileData" x="192" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="285" name="TileData" x="176" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="286" name="TileData" x="272" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="287" name="TileData" x="256" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="288" name="TileData" x="240" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="289" name="TileData" x="224" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="290" name="TileData" x="208" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="291" name="TileData" x="192" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="292" name="TileData" x="176" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="293" name="TileData" x="272" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="294" name="TileData" x="256" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="295" name="TileData" x="240" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="296" name="TileData" x="224" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="297" name="TileData" x="208" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="298" name="TileData" x="192" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="299" name="TileData" x="176" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="300" name="TileData" x="272" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="301" name="TileData" x="256" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="302" name="TileData" x="240" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="303" name="TileData" x="224" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="304" name="TileData" x="208" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="305" name="TileData" x="192" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="306" name="TileData" x="176" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="307" name="TileData" x="160" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="308" name="TileData" x="144" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="309" name="TileData" x="128" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="310" name="TileData" x="112" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="311" name="TileData" x="96" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="312" name="TileData" x="80" y="544" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="314" name="TileData" x="160" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="315" name="TileData" x="144" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="316" name="TileData" x="128" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="317" name="TileData" x="112" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="318" name="TileData" x="96" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="319" name="TileData" x="80" y="528" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="321" name="TileData" x="160" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="322" name="TileData" x="144" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="323" name="TileData" x="128" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="324" name="TileData" x="112" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="325" name="TileData" x="96" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="326" name="TileData" x="80" y="560" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="328" name="TileData" x="160" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="329" name="TileData" x="144" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="330" name="TileData" x="128" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="331" name="TileData" x="112" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="332" name="TileData" x="96" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="333" name="TileData" x="80" y="576" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="335" name="TileData" x="160" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="336" name="TileData" x="144" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="337" name="TileData" x="128" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="338" name="TileData" x="112" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="339" name="TileData" x="96" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="340" name="TileData" x="80" y="592" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="342" name="TileData" x="160" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="343" name="TileData" x="144" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="344" name="TileData" x="128" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="345" name="TileData" x="112" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="346" name="TileData" x="96" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="347" name="TileData" x="80" y="608" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="349" name="TileData" x="160" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="350" name="TileData" x="144" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="351" name="TileData" x="128" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="352" name="TileData" x="112" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="353" name="TileData" x="96" y="624" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="356" name="TileData" x="160" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="357" name="TileData" x="144" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="358" name="TileData" x="128" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="359" name="TileData" x="112" y="640" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="384" name="TileData" x="192" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="385" name="TileData" x="176" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="386" name="TileData" x="160" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="387" name="TileData" x="144" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="388" name="TileData" x="128" y="448" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="391" name="TileData" x="192" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="392" name="TileData" x="176" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="393" name="TileData" x="160" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="394" name="TileData" x="144" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="395" name="TileData" x="128" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="396" name="TileData" x="112" y="464" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="398" name="TileData" x="192" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="399" name="TileData" x="176" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="400" name="TileData" x="160" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="401" name="TileData" x="144" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="402" name="TileData" x="128" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="403" name="TileData" x="112" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="404" name="TileData" x="96" y="480" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="405" name="TileData" x="192" y="496" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="406" name="TileData" x="176" y="496" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="407" name="TileData" x="160" y="496" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="408" name="TileData" x="144" y="496" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="409" name="TileData" x="128" y="496" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="410" name="TileData" x="112" y="496" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="411" name="TileData" x="96" y="496" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="420" name="TileData" x="80" y="496" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="412" name="TileData" x="192" y="512" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="413" name="TileData" x="176" y="512" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="414" name="TileData" x="160" y="512" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="415" name="TileData" x="144" y="512" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="416" name="TileData" x="128" y="512" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="417" name="TileData" x="112" y="512" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="418" name="TileData" x="96" y="512" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+  <object id="419" name="TileData" x="80" y="512" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="Porch"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSgYBaNgFIyCUTAKRsFwBY4D7QAiwVBw5xKGwefOmzwMDAfRsCvD4HKnIdBNH3kwxantTlcK9ILc6InFjTBzB4M78bkRBA4B8WEg3skN4e/mhogx48H41DeT4UYlXvxuBAFzILbgZGC4CLX3MjeEjw9gU29BhvtggJOXsJpwIHYB2vMSau9rbgjfmwE3xqY+gsbuLAfiAKA9jNBwZ+aB8LMZcGNs6iuAbGUi7CPXnTAgCbVXmkA6waf+IDfx9iEDUtxJDTDc3XkLGCdVRMYjNQC57gSBSUB3JtIhXGOAdnyiMEwqgWbE0tCtRkD3lVDJ/FKgOYd4aIO96Ji26AkAijdAoA==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings" visible="0"/>
+ <layer id="5" name="Front" width="42" height="42">
+  <data encoding="base64" compression="zlib">
+   eJzt0sEJgDAMQNGetS7gKG7gLjqVIugInhzN9qaCojSJCv9BbiX9lDoHAAAAAACAO7q3A/AJfZjhYo7/ZHvewpzrnj9TFTJ7LGQ/abXqbMI9bcJdVp1L4l+lcy+1M6oNWiU6I83W0svum7zOQN744F1XjM0f8w==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front" visible="0"/>
+</map>
