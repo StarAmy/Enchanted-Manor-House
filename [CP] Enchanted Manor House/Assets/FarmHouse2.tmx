@@ -20,7 +20,7 @@
  </tileset>
  <layer id="1" name="Back" width="42" height="42">
   <data encoding="base64" compression="zlib">
-   eJztl0sOgjAQhuvOFq6hF1DwfC7du3Hv1hvoDbwA4gUUD2EjNBK00+mLRzJ/8mWiaWHy2VJhbDrZcztegrFKcnLAJ0dux7nhIuzxSSHn3wS+XnmN7bzCs8+HnP8U+HqXlBbj27VPn2p9ks/flA5ehvBZOXgZan2qzDRs5zU5r1Gfdeiu55sdx6H6xI6H6N4fkwPHofrEjofo3t+URcLYMjFXlz1jU03JZA95Yq4ue8amkk/y2YfPLP2ybmh/NxafWQozRp//cF2/oX3mQI8bwCd0dn1+p8A+TX3q5kFnVwyfLutTvW+B10X67P7fCbk+1fuWz/NVF4zPVQNmv/s+X3WJfT7F9jnUeUU+yWfMxPIZOgX5pFAoFMoE8gYw3asi
+   eJztl00OgjAQRuvOFq+hF1DwfC7du3Hv1hvoDbwA4gUUD2EVGgna6fRPwMyXvEw0LUyeLRXGhpMNt+MuGCslewd8suN2HGqOwh6f5HL+WeDriVfYzss9+7zK+TeBrxdJYTG+WX/pU61P8vmZwsFLFz5LBy9drU+VkYbVuCLjFeqzDt31fLPmOFSf2PEQ7ftjsuU4VJ/Y8RDt+5syTRibJeb63AOqT9u9g6mmpLKHLDFXlz1jU0P6jOGRfP6Hz3TyZlHT/K4vPtMJTB99fsN1/Yb2mQE9LgGf0Nn1+p0C+zT1qZsHnV0xfLqsT/W+BV4X6bP9fyfk+lTvWz7PV10wPuc1mP3u+3zVJfb5FNtnV+cV+SSfMRPLZ+jk5JNCoVAoA8gDHVSp2Q==
   </data>
  </layer>
  <objectgroup id="2" name="Back" visible="0">

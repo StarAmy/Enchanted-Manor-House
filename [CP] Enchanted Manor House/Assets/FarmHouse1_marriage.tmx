@@ -20,7 +20,7 @@
  </tileset>
  <layer id="1" name="Back" width="42" height="40">
   <data encoding="base64" compression="zlib">
-   eJztlkEKwjAQABuP2ot3PyFafYf6gir4K/2Bgj80pV1aNMnuJiFJYQeGoLYhDom1quZDzTQUZRFjwzSUtUWMk/4yZ0UfQ2j1/VdlH0Pu5cyFEdJAev7j2+DC6Jiz543RMff+BLYLs59l733VC69tuuYLaaCIwjqp15vsusE8ILWn7Xf3V5iXer3J1rBOSs+H/uyp8JF71mKfzZe+5q3wkXvWYp9N6Sk9Y/Rs6tH94PS9Uno2tdsSe5ospefBscZjQT2xdZbSM/f+7P7rTEm9P32h9NwNxujpS+rnkS+pn0e+SM+4zKWnIAiCIMTkCwBcG2g=
+   eJztlksKwjAQQBuXmo17LyFaPYd6gip4K72Bgjc0pQ0tms9MJiapzINHUNsQH4m1qqaDREpFWPSxQkpladHHQX2Zo4CPFBp1/1nYR8q9mLl8UBpwz29CG5wQHXP2vCA65t6fmvXM7GveeV106tc2XfNRGgigep3Q60223fQ8WmhP2+/up3pe6PUmG8M6IT1v6rO78I/jDpgzF+tsPtQ1T+EfsWct9tnE9PxFR+75Hz1rObjtHb9XSs9aui2xp8lSeu4ca9wX1NO3zlJ65t6f7X+dMan3ZyiQnpveGD1DSf08CiX18ygU7hmXqfRkGIZhmJi8AVZsG6U=
   </data>
  </layer>
  <objectgroup id="2" name="Back" visible="0">
