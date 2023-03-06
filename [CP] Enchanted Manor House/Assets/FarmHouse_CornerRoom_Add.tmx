@@ -26,7 +26,7 @@
    eJzt1NEJgDAMBND6mbiPK7iabqC7OIIL6AZ1CltCQaFaFGqD3IMjQj8ajqIxENOx5OlZbhNJBpbE3J3lNpNkcfevnJ6l9rPu7o3T82uhG639hW7Q3zttLVNrf9XhuyGJV+h3cqmn837ajMr3829L834AAAAAAADwLztk2UrT
   </data>
  </layer>
- <objectgroup id="2" name="Back">
+ <objectgroup id="2" name="Back" visible="0">
   <object id="1" name="TileData" x="480" y="16" width="16" height="16">
    <properties>
     <property name="WallID" value="Corner"/>
@@ -415,7 +415,7 @@
  </objectgroup>
  <layer id="3" name="Buildings" width="40" height="36">
   <data encoding="base64" compression="zlib">
-   eJzt1EEKwjAQBdDBtos0XqfYrahL0Sv0LF4m52iuY+/ghBAoxUiKNBPKf/A3ySw+gQlRXjXnwHlroorimbSfzW3kWNfz+Huu4ftbjkILnSI6qbRZiX5n7nbhmNbnm3An0e/O3R4Fv98a6PcfiX4vzpA4a7YsEhH+Xzs7c+8UWWUxfeIOS7kW3u9ZeD8AAAAAAADYlw8/Sw2t
+   eJzt1F0KQEAUBeCbnwc/2xGvwqPYgrXYjHWwHfbgSkpCI5k76Xx1Xmbuw2nqDpFeDsfijAGRTdeZgnVWt54zLD3D+zmX7wsdhQ4ijyj21GYl+qXcLeN0/poz251Ev5K7VQa/3xPo945Ev5bTKM52XxY5sf9/h9358k4XqywmUdxhKbnh/WrD+wEAAAAAAMC/zHCnDbA=
   </data>
  </layer>
  <objectgroup id="4" name="Buildings" visible="0"/>

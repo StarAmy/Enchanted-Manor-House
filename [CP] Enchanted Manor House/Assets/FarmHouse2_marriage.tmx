@@ -3943,7 +3943,7 @@
  </objectgroup>
  <layer id="3" name="Buildings" width="42" height="42">
   <data encoding="base64" compression="zlib">
-   eJztlr1OwzAUhU0FU8lDsLNETBQGoFAYEFCm8isGEH8SNKKVGEB05AFg55VQGXiO9gU4Flz1gmrHdh01QT7SkazmXueLo9zTSkmIOUsvwhWHPmlXJeidnDavn0JtDz19yz7qdVXi8IxnZSHOy+73dJHknBV2TsB4B69N2HsUTls9gvFpDOdZBAVOv4odONslt75RJOf1gsF87jOuXgYzXpcbMldM5ryczxfs+5Zr2xn/dz8uXW7I2vYPZ5MxbGK9AlfhVTkj4RrcYjUtzzMpLTeI8wE1M+LbDay34G14B67Du3CH7dNh9a7motxQ1RLnM2M4xXofPoAP4SP4OOOZnpYbwzjzKOJ8LQhnUc7TJ+dyhHkBV6PBbzWs1+GNaHgPcaRxvnjk3FOwSJ1oONMkOd88ciYaznsNp0kejVv0XtPyyHQv+u8Re34+yk3dvW0UlwZWcc5r3vuS4hrlpi6PYgtzqTjrGs6G4hrlpkq25/lrb0XvJViu4GvGdIP1LdxUcJrkpm/OLBQ47fSBvboev3cun5wmuZkXBU6/etewfOaI0yZjgoKCgoL+n74AUV9icA==
+   eJztls1Kw0AUhcegq5qHcO8muLK6aK1WF6LWVdVWXCj+gTbYggvFLn0A3ftKogufo30Bz6CXDtL57YQmMgcODM29ky8Jc0/LEWNLll6Fyw593K5K0Ts7b14/h9oBeoaWfdTrqtThGc9KjJ2X3O/pIs65yOycgvEO3pix9ySctnoE49MU3mcRFDj9KnHg7EVufZOIz+sVg/k8FLgGGcx4VW7wXDGZ83w+Xwjnm69tZ/zf/USpcoPX9n45OwLDNtZrcA1e5zMSrsNdoabreSbpcoM4H1CzwH7cxHoH3oX34Aa8D/eFffpCvatFUW7IaonzWWA4xfoQPoJbcBs+znim63JjHGceRZyvBeEsyvv0yVmNMS/gWjz6rY71JrwVj+8hDh3ni0fOAwkL14mCUyfO+eaRM1Vw3is4TfJo2qLvqssj073ov0fi+fkoN1X3tlESjSzjXFZ894rkGuWmKo8SR8s4GwrOpuQa5aZMWXBeguUKvhaYbrC+hTsSTpPc9M2ZhQKnnT6x14fmvOeB0yQ386LA6VfvCpavHHHqzkNQUFBQ0P/WN7MpcPs=
   </data>
  </layer>
  <objectgroup id="4" name="Buildings" visible="0">
@@ -3990,7 +3990,7 @@
  </objectgroup>
  <layer id="5" name="Front" width="42" height="42">
   <data encoding="base64" compression="zlib">
-   eJztlzsOgkAQhic0RoEbaGHn+9Fa+qqMD3xei7N4BI+g8R56An86CoVhZZewmS/5KpjMMrvMAFF5uFWyqRoXjzVB3SNqeGZzCoJtPByiu2M2Z4h8T4bRul4u0dvNFhfXFFX0opqmfjRhPIdKf1bp8Wn9Psu9K+zrFM7gHC7g0uXXRQWVuXHBmtZwA7dwBwPN6xQEU7R9og7swh7swwEcwpH/PaaIuWE7SfPtamGt42dI13nK618lZOxD88e7EtFKuMbNnabOM8KZm2OHL5cAddvDAzzCEzz/UUtBKBKZm/lh61wsmrJ8h+Q1YwRBEIRy8gHl8HXU
+   eJztlzkSgkAQRbtILEVuoIGZ+5IaukWWC67X8CicxSN4BC3voSfwkxEoNKMzyFS/qhdB1zQ9QzcQ5YdLIZ2qcdFYE1TKRNWy2TUFwTZuDtHVMbtmgPXuDMO8Hi7R000XF9UURfSikqZ+NGQ8h0p/VunxSf0+zb1z7OsIjuEETuHM5ddFBZW5cUROC7iEK7iGvuY8BcEUDY+oCVuwDTuwC3uw772PyWJu2E7cfDtbWOvoGdJ1nn71rxIw9qH24V0Jqcdc466dpM4zwpmbA0fNU0zePuq2gVu4g3t4+KKWuvLUgeRpX56cPvcPeeYBW+di1uTlOyTpfRAEQRDs5gXh2YcR
   </data>
  </layer>
  <objectgroup id="6" name="Front" visible="0"/>
