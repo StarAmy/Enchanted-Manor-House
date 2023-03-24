@@ -1346,13 +1346,8 @@
    eJzjYmBgYMaBeYCYC488JWodgZgFxEADrECxQ0D6MA55StS6Qu114MSuxhQobo5DjhK1MHt9gOpXYsGOQOyMQ44StTB7I4BsLSDWBmIdINYFYj0g9gVifyL9QIpamL2pRKqnFkD270DYmzJA9hYMkL30BiB7E/HINxOQp0QtIwmYgUT1+DAAFXsitg==
   </data>
  </layer>
- <objectgroup id="4" name="Buildings" visible="0">
+ <objectgroup id="4" name="Buildings">
   <object id="406" x="32" y="64" width="16" height="16">
-   <properties>
-    <property name="Action" value="kitchen"/>
-   </properties>
-  </object>
-  <object id="414" x="32" y="48" width="16" height="16">
    <properties>
     <property name="Action" value="kitchen"/>
    </properties>
@@ -1362,27 +1357,12 @@
     <property name="Action" value="kitchen"/>
    </properties>
   </object>
-  <object id="413" x="48" y="48" width="16" height="16">
-   <properties>
-    <property name="Action" value="kitchen"/>
-   </properties>
-  </object>
   <object id="409" x="64" y="64" width="16" height="16">
    <properties>
     <property name="Action" value="kitchen"/>
    </properties>
   </object>
-  <object id="412" x="64" y="48" width="16" height="16">
-   <properties>
-    <property name="Action" value="kitchen"/>
-   </properties>
-  </object>
   <object id="410" x="80" y="64" width="16" height="16">
-   <properties>
-    <property name="Action" value="kitchen"/>
-   </properties>
-  </object>
-  <object id="411" x="80" y="48" width="16" height="16">
    <properties>
     <property name="Action" value="kitchen"/>
    </properties>
